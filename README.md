@@ -33,7 +33,13 @@ The project uses an OpenAI model (`gpt-4o-mini`) to understand user requests, de
     ```dotenv
     OPENAI_API_KEY="sk-proj-..."
     ZAPIER_URL="https://actions.zapier.com/mcp/YOUR_SECRET_KEY/sse"
-    ```
+
+5. **Enable the Zapier actions you want to call as tools**
+
+    via https://actions.zapier.com/settings/mcp/
+
+    This demo uses `Gmail: Find Email`
+
 
 ## Usage
 
