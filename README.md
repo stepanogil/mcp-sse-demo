@@ -37,7 +37,7 @@ The project uses an OpenAI model (`gpt-4o-mini`) to understand user requests, de
 
 ## Usage
 
-The `chat.py` script provides an async `chat(user_input)` function. You can import and use this function in your own script or an interactive environment (like Jupyter, where `nest_asyncio` is often used) to interact with the chatbot.
+The `chat.py` script provides an async `chat(user_input)` function. You can import and use this function in your own script or an interactive environment i.e. Jupyter notebook to interact with the chatbot.
 
 Example in a Python script):
 
