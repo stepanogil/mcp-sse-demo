@@ -4,6 +4,8 @@ This repository demonstrates using the [Model Context Protocol (MCP)](https://mo
 
 It illustrates integrating a remotely hosted MCP server with your LLM of choice (i.e. not via the Claude desktop app or Cursor)
 
+Update: SSE is being deprecated in favor of Stremable HTTP. I've added an example using this via FastMCP. [Notebook here](fastmcp-example.ipynb)
+
 ## Overview
 
 The project uses an OpenAI model (`gpt-4o-mini`) to understand user requests, determine if a Gmail action (tool) is needed, and execute it via the Zapier MCP server.
