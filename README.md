@@ -1,7 +1,8 @@
 # MCP SSE Demo
 
 This repository demonstrates using the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) with Server-Sent Events (SSE) to interact with a Zapier MCP server, enabling access to Gmail functionalities through an AI agent.
-This project demonstrates how to integrate a remotely hosted MCP server with your LLM of choice (i.e. not via the Claude desktop app or Cursor)
+
+It illustrates integrating a remotely hosted MCP server with your LLM of choice (i.e. not via the Claude desktop app or Cursor)
 
 ## Overview
 
